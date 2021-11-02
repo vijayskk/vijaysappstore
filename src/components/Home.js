@@ -19,7 +19,7 @@ function Home() {
         console.log(tempapps);
     }, [refresh])
     return (
-        <div className="w-full p-5">
+        <div className="w-full p-5 md:p-32">
             <div>
                 {
                     (apps.length === 0) ?
@@ -28,7 +28,7 @@ function Home() {
                             <h1 className="text-center w-full text-3xl font-bold pt-14 animate-bounce">Nothing found😥</h1>
                         </div>
                         :
-                        <div  className="w-full gap-5 grid grid-flow-row grid-cols-3 ">
+                        <div  className="w-full gap-5 md:gap-32 grid grid-flow-row grid-cols-3 md:grid-cols-4 ">
                             {
                                 apps.map((obj, index) => {
                                     return (

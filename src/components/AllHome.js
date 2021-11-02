@@ -9,8 +9,8 @@ function AllHome() {
         setapps(appData)
     }, [refresh])
     return (
-        <div className="w-full p-5">
-            <div className="w-full gap-5 grid grid-flow-row grid-cols-3 ">
+        <div className="w-full p-5 md:p-32">
+            <div className="w-full gap-5 md:gap-32 grid grid-flow-row grid-cols-3 md:grid-cols-4 ">
                 {
                     apps.map((obj,index)=>{
                         return (
