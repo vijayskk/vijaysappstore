@@ -8,7 +8,7 @@ function Details() {
         const urlParams = new URLSearchParams(queryString);
         const thiscategory = urlParams.get('cat')
         const index = urlParams.get('index')
-        var tempapps = []
+        var tempapps = [] // eslint-disable-next-line
         appData.map((obj) => {
             if (obj.category === thiscategory) {
                 tempapps = [...tempapps, obj]

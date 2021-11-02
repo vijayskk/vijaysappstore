@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Header from './Header'
 import { appData } from '../AppsData'
 import AppTile from './AppTile'
 import { ReloadContext } from '../contexts/RefreshContext'
@@ -10,7 +9,7 @@ function Home() {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const thiscategory = urlParams.get('cat')
-        var tempapps = []
+        var tempapps = [] // eslint-disable-next-line
         appData.map((obj) => {
             if (obj.category === thiscategory) {
                 tempapps = [...tempapps, obj]

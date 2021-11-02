@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Header from './Header'
 import { appData } from '../AppsData'
 import AppTile from './AppTile'
 import { ReloadContext } from '../contexts/RefreshContext'
