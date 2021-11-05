@@ -18,14 +18,8 @@ function Details() {
         const urlParams = new URLSearchParams(queryString);
         const thiscategory = urlParams.get('cat')
         const index = urlParams.get('index')
-        var tempapps = [] // eslint-disable-next-line
-        appData.map((obj) => {
-            if (obj.category === thiscategory) {
-                tempapps = [...tempapps, obj]
-            }
-        })
-        setapp(tempapps[index])
-        console.log(tempapps[index]);
+        setapp(appData[index])
+        console.log(appData[index]);
     }, [])
     const iconpath = "/appicons/" + app.iconfile
     const filepath = "/files/" + app.appfile

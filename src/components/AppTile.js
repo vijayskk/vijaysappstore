@@ -7,7 +7,7 @@ function AppTile({obj,index}) {
     return (
         <div>
             <div className="rounded-xl bg-gray-200 flex flex-col p-2 md:p-10" onClick={()=>{
-                history.push(`/details?cat=${obj.category}&index=${index}`)
+                history.push(`/details?index=${index}`)
             }}>
                 <img className="m-2 md:m-10 rounded-xl" src={iconpath} alt="" />
                 <h1 className="w-full text-justify font-bold md:text-4xl">{obj.name}</h1>
