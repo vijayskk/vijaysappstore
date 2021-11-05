@@ -16,7 +16,6 @@ function Details() {
     useEffect(() => {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        const thiscategory = urlParams.get('cat')
         const index = urlParams.get('index')
         setapp(appData[index])
         console.log(appData[index]);
