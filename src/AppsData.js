@@ -15,7 +15,7 @@ const appData = [
         madeby:"Vijay Satheesh",
         description:"A simple todo app made by vijay",
         iconfile:"todologo.jpg",
-        appfile:"Todo.app.V1.apk",
+        appfile:"Todo.app.V2.apk",
         sizeinmb:17.9
         },
 ]
