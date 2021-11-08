@@ -18,6 +18,15 @@ const appData = [
         appfile:"Todo.app.V2.apk",
         sizeinmb:17.9
         },
+        {
+        name:"World Time",
+        category:"education",
+        madeby:"Vijay Satheesh",
+        description:"An app to view time in different zones",
+        iconfile:"worldtimelogo.png",
+        appfile:"World.Time.V1.apk",
+        sizeinmb:20.3
+        },
 ]
 
 
