@@ -24,7 +24,7 @@ const appData = [
         madeby:"Vijay Satheesh",
         description:"An app to view time in different zones",
         iconfile:"worldtimelogo.png",
-        appfile:"World.Time.V1.apk",
+        appfile:"World.Time.V2.apk",
         sizeinmb:20.3
         },
 ]
