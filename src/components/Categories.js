@@ -15,7 +15,7 @@ function Categories() {
                     }}> 
                         All
                     </div>
-                    <div className="py-1 px-6 rounded bg-gray-200 " onClick={()=>{
+                    {/* <div className="py-1 px-6 rounded bg-gray-200 " onClick={()=>{
                         history.push('/home?cat=health')
                         setrefresh(refresh+1)
                     }}> 
@@ -38,7 +38,7 @@ function Categories() {
                         setrefresh(refresh+1)
                     }}> 
                         Programming
-                    </div> 
+                    </div>  */}
 
                 </div>
             </div>
