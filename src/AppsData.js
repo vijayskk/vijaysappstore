@@ -36,6 +36,15 @@ const appData = [
         appfile: "Flybooks.V1.apk",
         sizeinmb: 17.3
     },
+    {
+        name: "CrazyFood",
+        category: "fun",
+        madeby: "Vijay Satheesh",
+        description: "A full featured food delivery app",
+        iconfile: "crazyfoodlogo.png",
+        appfile: "Crazyfood.Stable.V1.apk",
+        sizeinmb: 21.5
+    },
 ]
 
 
