@@ -45,6 +45,15 @@ const appData = [
         appfile: "Crazyfood.Stable.V1.apk",
         sizeinmb: 21.5
     },
+    {
+        name: "Global Talk",
+        category: "fun",
+        madeby: "Vijay Satheesh",
+        description: "Chat with Strangers with a Temperory ID!!!",
+        iconfile: "globaltalklogo.png",
+        appfile: "GlobalTalk.Beta.V1.apk",
+        sizeinmb: 18.5
+    },
 ]
 
 
